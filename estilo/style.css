@@ -1,0 +1,15 @@
+@charset "UTF-8";
+:root {
+    --cor1: #ADCCFF;
+    --cor2: #82B2FF;
+    --cor3: #013892;
+    --cor4: #123367;
+    --cor5: #15243C;
+    --cor6: yellow;
+
+    --fonte_texto: Arial, Helvetica, sans-serif;
+    --fonte_titulo: 'Times New Roman', Times, serif;
+}
+* {
+    padding: 0px;
+}
