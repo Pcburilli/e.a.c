@@ -26,39 +26,64 @@ main > p, h1, h2, h3, h4, li {
 }
 body {
     background-color: var(--preto);
-    margin-left: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
-main {
-    background-color: rgb(25, 25, 25);
-    width: 60%;
-    padding: 10px;
-    border-radius: 20px;
-    margin-top: 20px;
-    text-indent: 2em;
+a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
 }
 header {
     background-color: var(--preto);
-    width: 100%;
-    height: 8em;
+    max-width: 800px;
+    min-width: 200px;
+    height: 7em;
+    margin: auto;
 }
 header > h1 {
     color: var(--cor2);
     text-align: center;
     padding-top: 1.2em;
+    text-decoration: underline var(--cor3);
 }
-header > p {
-    color: var(--cor2);
-    text-align: center;
-    padding-top: 1.2em;
+nav {
+    background-color: var(--preto);
+    max-width: 800px;
+    min-width: 200px;
+    height: 1em;
+    margin: 0px auto 20px auto;
+}
+article#main {
+    display: inline-block;
+    background-color: rgb(25, 25, 25);
+    max-width: 800px;
+    min-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-indent: 2em;
+}
+div#imagem {
+    display: inline-block;
+    position: relative;
+    right: -140px;
+    top: -800px;
+    width: 200px;
+    height: 400px;
+    background-color: #013892;
 }
 div#local1 {
     display: inline-flex;
 }
 div#titulo2 {
     background-color: var(--cor6);
-    width: 300px;
+    max-width: 300px;
+    min-width: 200px;
     padding: 5px;
-    border-radius: 10px;
     margin-bottom: 20px;
 }
 #titulo2 > h1 {
@@ -73,7 +98,8 @@ div#icones {
 }
 #textinho {
     display: inline-block;
-    width: 70%;
+    max-width: 800px;
+    min-width: 200px;
     text-indent: 2em;
 }
 #sumario {
@@ -90,12 +116,4 @@ ol {
 }
 #conteudo > p {
     color: white;
-}
-#imagem {
-    display: inline-block;
-    background-color: red;
-    margin: 0px 0px 0px 0px;
-
-    height: 500px;
-    width: 300px;
 }
