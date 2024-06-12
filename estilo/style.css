@@ -89,7 +89,6 @@ div#icones {
     display: inline-block;
     text-indent: 2em;
     margin: auto;
-    margin-bottom: 1em;
 }
 #sumario {
     border: 1px solid var(--cor6);
