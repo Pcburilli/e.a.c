@@ -16,6 +16,16 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    background-color: var(--preto);
+    min-height: 100vh;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+main {
+    margin: 1em;
+}
 p, h1, h2, h3, h4, li {
     color: var(--cor2);
     text-align: justify;
@@ -23,11 +33,6 @@ p, h1, h2, h3, h4, li {
 main > p, h1, h2, h3, h4, li {
     color: var(--branco);
     text-align: justify;
-}
-body {
-    background-color: var(--preto);
-    margin-left: 1em;
-    margin-right: 1em;
 }
 a {
     color: var(--cor2);
@@ -39,8 +44,6 @@ a:hover {
 }
 header {
     background-color: var(--preto);
-    max-width: 800px;
-    min-width: 200px;
     height: 7em;
     margin: auto;
 }
@@ -52,40 +55,25 @@ header > h1 {
 }
 nav {
     background-color: var(--preto);
-    max-width: 800px;
-    min-width: 200px;
     height: 1em;
-    margin: 0px auto 20px auto;
+    margin: 0em 1em 0em 1em;
 }
 article#main {
     display: inline-block;
     background-color: rgb(25, 25, 25);
-    max-width: 800px;
-    min-width: 200px;
     padding: 10px;
     border-radius: 20px;
     margin-top: 20px;
     text-indent: 2em;
-    margin: auto;
-}
-div#imagem {
-    display: inline-block;
-    position: relative;
-    right: -140px;
-    top: -800px;
-    width: 200px;
-    height: 400px;
-    background-color: #013892;
 }
 div#local1 {
     display: inline-flex;
 }
 div#titulo2 {
     background-color: var(--cor6);
-    max-width: 300px;
-    min-width: 200px;
     padding: 5px;
-    margin: 0px auto 20px auto;
+    width: 350px;
+    margin: 0em 0em 1em 0em;
 }
 #titulo2 > h1 {
     color: var(--preto);
@@ -99,10 +87,9 @@ div#icones {
 }
 #textinho {
     display: inline-block;
-    max-width: 800px;
-    min-width: 200px;
     text-indent: 2em;
     margin: auto;
+    margin-bottom: 1em;
 }
 #sumario {
     border: 1px solid var(--cor6);
