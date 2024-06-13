@@ -66,14 +66,22 @@ article#main {
     margin-top: 20px;
     text-indent: 2em;
 }
-div#local1 {
-    display: inline-flex;
-}
 div#titulo2 {
+    display: inline-block;
     background-color: var(--cor6);
     padding: 5px;
     width: 350px;
     margin: 0em 0em 1em 0em;
+}
+#icones {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    max-width: 594px;
+    text-align: center;
+}
+img {
+    max-width: 594px;
 }
 #titulo2 > h1 {
     color: var(--preto);
@@ -82,11 +90,7 @@ div#titulo2 {
 #titulo2 > p {
     color: var(--preto);
 }
-div#icones {
-    margin: 17px 0px 0px 94px;
-}
 #textinho {
-    display: inline-block;
     text-indent: 2em;
     margin: auto;
 }
