@@ -38,11 +38,11 @@ main > p, h1, h2, h3, h4, li {
     text-align: justify;
 }
 a {
-    color: var(--cor2);
+    color: var(--cor6);
     text-decoration: none;
 }
 a:hover {
-    color: var(--cor3);
+    color: #ac9720;
     text-decoration: underline;
 }
 header {
@@ -50,10 +50,10 @@ header {
     margin: auto;
 }
 header > h1 {
-    color: var(--cor2);
+    color: var(--cor6);
     text-align: center;
     padding-top: 1.2em;
-    text-decoration: underline var(--cor3);
+    text-decoration: underline #ac9720;
 }
 nav {
     height: 1em;
@@ -103,7 +103,7 @@ img {
     border: 3px solid var(--cor6);
     padding: 5px 5px 5px 10px;
     margin: -13px -13px 0px -13px;
-    color: var(--cor2);
+    color: var(--cor6);
     border-radius: 10px 10px 0px 0px;
 }
 .lista-decimal {
