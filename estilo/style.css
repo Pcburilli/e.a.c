@@ -6,7 +6,7 @@
     --cor4: #123367;
     --cor5: #15243C;
     --cor6: #E2C529;
-    --preto: #000000;
+    --preto: black;
     --branco: #ffffff;
 
     --fonte_texto: Arial, Helvetica, sans-serif;
@@ -58,6 +58,12 @@ header > h1 {
 nav {
     height: 1em;
     margin: 0em 1em 0em 1em;
+}
+nav > p {
+    background-color: #1b1b1b64;
+    padding: 5px 5px 5px 0px;
+    margin-right: 1em;
+    display: inline;
 }
 div#titulo2 {
     display: inline-block;
@@ -144,19 +150,18 @@ article#main {
     text-indent: 2em;
     border: 3px solid var(--cor6);
     border-radius: 10px;
-
 }
-#conteudo {
+.conteudo {
     margin-top: 1em;
 }
-#conteudo > h3 {
+.conteudo > h3 {
     margin-bottom: 0.2em;
     font-size: 1.5em;
 }
-#conteudo > h2 {
+.conteudo > h2 {
     margin-top: 1em;
     margin-bottom: 0.2em;
 }
-#conteudo > p {
+.conteudo > p {
     color: white;
 }
