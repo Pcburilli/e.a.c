@@ -8,6 +8,8 @@
     --cor6: #E2C529;
     --preto: black;
     --branco: #ffffff;
+    --cinza: #3E4E4E;
+    --cinza_escuro: #272928;
 
     --fonte_texto: Arial, Helvetica, sans-serif;
     --fonte_titulo: 'Times New Roman', Times, serif;
@@ -48,6 +50,7 @@ a:hover {
 header {
     height: 7em;
     margin: auto;
+    margin: 0px 16px 0px 16px;
 }
 header > h1 {
     color: var(--cor6);
@@ -164,4 +167,39 @@ article#main {
 }
 .conteudo > p {
     color: white;
+}
+.conteudo#sad {
+    border: 3px solid var(--cinza_escuro);
+    margin: 16px -13px -13px -13px;
+    border-radius: 0px 0px 10px 10px;
+    text-indent: 2em;
+    padding: 0px 10px 0px 10px;
+}
+.ficha_gangues {
+    border: 3px solid var(--cinza);
+    background-color: black;
+}
+.ficha_gangues#part_1 {
+    max-width: 500px;
+    height: 40px;
+}
+.ficha_gangues#part_2 {
+    max-width: 230px;
+    height: 150px;
+}
+.ficha_gangues#part_3 {
+    max-width: 230px;
+    height: 50px;
+}
+.ficha_gangues#part_4 {
+    max-width: 230px;
+    height: 120px;
+}
+.ficha_gangues#part_5 {
+    max-width: 230px;
+    height: 120px;
+}
+.ficha_gangues#part_6 {
+    max-width: 500px;
+    height: 225px;
 }
