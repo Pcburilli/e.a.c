@@ -75,14 +75,14 @@ div#titulo2 {
     width: 350px;
     margin: 0em 0em 1em 0em;
 }
-#icones {
+#icones_base {
     display: inline-block;
     margin-left: 10px;
     margin-bottom: 5px;
     max-width: 594px;
     text-align: center;
 }
-img {
+img#icones {
     max-width: 594px;
 }
 #titulo2 > h1 {
@@ -168,38 +168,17 @@ article#main {
 .conteudo > p {
     color: white;
 }
-.conteudo#sad {
-    border: 3px solid var(--cinza_escuro);
-    margin: 16px -13px -13px -13px;
-    border-radius: 0px 0px 10px 10px;
-    text-indent: 2em;
-    padding: 0px 10px 0px 10px;
-}
-.ficha_gangues {
+#ficha_gangues {
+    text-indent: 0px;
     border: 3px solid var(--cinza);
+    border-radius: 10px;
     background-color: black;
+    margin: auto;
+    text-align: center;
 }
-.ficha_gangues#part_1 {
+.imgs_gangue {
+    display: inline-block;
+    padding: 10px 10px 0px 10px;
     max-width: 500px;
-    height: 40px;
-}
-.ficha_gangues#part_2 {
-    max-width: 230px;
-    height: 150px;
-}
-.ficha_gangues#part_3 {
-    max-width: 230px;
-    height: 50px;
-}
-.ficha_gangues#part_4 {
-    max-width: 230px;
-    height: 120px;
-}
-.ficha_gangues#part_5 {
-    max-width: 230px;
-    height: 120px;
-}
-.ficha_gangues#part_6 {
-    max-width: 500px;
-    height: 225px;
+    max-height: 450px;
 }
