@@ -161,10 +161,22 @@ article#main {
 .conteudo > h3 {
     margin-bottom: 0.2em;
     font-size: 1.5em;
+    background-color: var(--cor6);
+    margin-left: -13px;
+    margin-right: -13px;
+    max-width: 1000px;
+    min-width: 300px;
+    color: black;
 }
 .conteudo > h2 {
     margin-top: 1em;
     margin-bottom: 0.2em;
+    background-color: var(--cor6);
+    margin-left: -13px;
+    margin-right: -13px;
+    max-width: 1000px;
+    min-width: 300px;
+    color: black;
 }
 .conteudo > p {
     color: white;
@@ -173,12 +185,43 @@ article#main {
     text-indent: 0px;
     text-align: center;
 }
-.img_divisoes {
+.img_divisao_fora {
     display: inline-block;
+}
+.img_divisoes {
+    position: relative;
     border: 3px solid var(--cor6);
-    width: 220px;
-    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+    width: 270px;
+    height: 150px;
     margin: 10px 3px 0px 2px;
+}
+.img_divisoes:hover {
+    border: 3px solid #ab951e;
+    border-bottom-color: var(--cor6);
+}
+.img_divisao_dentro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 270px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.divisoes_nomes {
+    border: 3px solid var(--cor6);
+    border-radius: 0px 0px 10px 10px;
+    margin: -3px 3px 0px 2px;
+    background-color: var(--cor6);
+}
+.divisoes_nomes > p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.15em;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
 }
 #ficha_gangues {
     text-indent: 0px;

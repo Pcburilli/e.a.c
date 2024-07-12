@@ -1,0 +1,33 @@
+@charset "UTF-8";
+:root {
+    --cor1: #ADCCFF;
+    --cor2: #82B2FF;
+    --cor3: #013892;
+    --cor4: #123367;
+    --cor5: #15243C;
+    --cor6: #E2C529;
+    --preto: black;
+    --branco: #ffffff;
+    --cinza: #3E4E4E;
+    --cinza_escuro: #272928;
+
+    --fonte_texto: Arial, Helvetica, sans-serif;
+    --fonte_titulo: 'Times New Roman', Times, serif;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    background-color: var(--preto);
+    background-image: url(../imagens/fundo2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+h1 {
+    color: white;
+}
