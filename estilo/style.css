@@ -72,7 +72,8 @@ div#titulo2 {
     display: inline-block;
     background-color: var(--cor6);
     padding: 5px;
-    width: 350px;
+    max-width: 350px;
+    min-width: 300px;
     margin: 0em 0em 1em 0em;
 }
 #icones_base {
@@ -102,8 +103,9 @@ img#icones {
 }
 #sumario {
     border: 3px solid var(--cor6);
-    width: max-content;
     padding: 10px;
+    max-width: 400px;
+    min-width: 300px;
     margin: 1em 0em 0em 0em;
     border-radius: 10px;
     background-color: #1B1B1B;
@@ -145,7 +147,6 @@ li > a {
     padding-left: 5px;
 }
 article#main {
-    display: inline-block;
     background-color: #1B1B1B;
     padding: 10px;
     border-radius: 20px;
@@ -168,6 +169,17 @@ article#main {
 .conteudo > p {
     color: white;
 }
+#estrutura_divisao {
+    text-indent: 0px;
+    text-align: center;
+}
+.img_divisoes {
+    display: inline-block;
+    border: 3px solid var(--cor6);
+    width: 220px;
+    height: 120px;
+    margin: 10px 3px 0px 2px;
+}
 #ficha_gangues {
     text-indent: 0px;
     border: 3px solid var(--cinza);
@@ -178,6 +190,7 @@ article#main {
 }
 .imgs_gangue {
     display: inline-block;
+    background-size: contain;
     padding: 10px 10px 0px 10px;
     max-width: 500px;
     max-height: 450px;
