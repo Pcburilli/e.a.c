@@ -228,8 +228,8 @@ article#main {
 #div_mapa {
     border: 3px solid var(--cor6);
     border-radius: 10px;
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     background-image: url(../imagens/Mapa_dos_Distritos_13.0.jpg);
     background-size: contain;
     margin: auto;
