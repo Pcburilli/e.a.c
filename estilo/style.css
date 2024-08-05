@@ -225,6 +225,16 @@ article#main {
     text-align: center;
     padding: 2px 0px 2px 0px;
 }
+#div_mapa {
+    border: 3px solid var(--cor6);
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    background-image: url(../imagens/Mapa_dos_Distritos_13.0.jpg);
+    background-size: contain;
+    margin: auto;
+    margin-top: 20px;
+}
 #gangues {
     margin-bottom: 10px;
 }
