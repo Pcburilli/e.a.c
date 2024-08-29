@@ -346,6 +346,16 @@ article#main {
     width: 150px;
     height: 150px;
 }
+@media (max-width: 400px) {
+    .imgs_gangue {
+        text-indent: 0px;
+        display: inline-block;
+        background-size: contain;
+        padding: 10px 10px 0px 10px;
+        width: 100px;
+        height: 100px;
+    }
+}
 .imgs_gangue {
     cursor: pointer;
     transition: 0.3s;
