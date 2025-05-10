@@ -278,7 +278,7 @@ article#main {
     width: 270px;
     height: 150px;
     transform: translate(-50%, -50%);
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .divisoes_nomes {
     border: 3px solid var(--cor6);
@@ -356,10 +356,7 @@ article#main {
         height: 100px;
     }
 }
-.imgs_gangue {
-    cursor: pointer;
-    transition: 0.3s;
-}
 .imgs_gangue:hover {
+    cursor: pointer;
     opacity: 0.7;
 }
